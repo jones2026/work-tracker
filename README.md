@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.org/JohnDeere/work-tracker.svg?branch=master)](https://travis-ci.org/JohnDeere/work-tracker)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.deere.isg.work-tracker/work-tracker/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.deere.isg.work-tracker/work-tracker)
 [![DepShield Badge](https://depshield.sonatype.org/badges/JohnDeere/work-tracker/depshield.svg)](https://depshield.github.io)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fjones2026%2Fwork-tracker.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fjones2026%2Fwork-tracker?ref=badge_shield)
 
 # Work Tracker
 A library to monitor threads and requests. It provides advanced logging capabilities, and protects the application's JVMs from too many requests and from long running requests that would eventually turn into zombies.
@@ -158,3 +159,7 @@ Example:
 ```bash
 bash build/bump_version.sh MINOR
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fjones2026%2Fwork-tracker.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fjones2026%2Fwork-tracker?ref=badge_large)
